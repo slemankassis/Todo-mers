@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "start-watch": "nodemon index.js",
-    "dev": "concurrently \"yarn run start-watch\" \"cd client && yarn start\""
+    "dev": "concurrently \"yarn run start-watch\" \"cd client && yarn start\"",
+    "lint": "eslint models/** routes/** index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,8 @@
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
     "nodemon": "^2.0.2"
   }
 }

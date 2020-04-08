@@ -1,7 +1,7 @@
 {
   "name": "todo-backend",
   "version": "1.0.0",
-  "description": "building todo app using mongodb, express, react and nodejs",
+  "description": "Building todo app using mongodb, express, react and nodejs https://www.digitalocean.com/community/tutorials/getting-started-with-the-mern-stack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
